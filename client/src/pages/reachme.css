@@ -117,7 +117,8 @@ textarea {
 }
 
 .btnSubmit,
-.btnClear {
+.btnClear,
+.btnDownload {
 	padding: 0.75rem;
 	font-size: 1rem;
 	border-radius: 5px;
@@ -125,13 +126,17 @@ textarea {
 	cursor: pointer;
 }
 
-.btnSubmit {
+.btnSubmit, .btnDownload {
 	background-color: var(--profile-theme);
 	color: white;
 	transition: background-color 0.3s ease;
 }
 
 .btnSubmit:hover {
+	background-color: var(--color-blue-dark-1);
+}
+
+.btnDownload:hover {
 	background-color: var(--color-blue-dark-1);
 }
 

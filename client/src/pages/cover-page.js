@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from 'react';
+import CvImage from '../assets/CvImage.jpeg';
 import './cover-page.css';
 
 function CoverPg(){
@@ -7,7 +8,7 @@ function CoverPg(){
         <div className="profile">
 
             <div className='photo'>
-                <img src='/CvImage.jpeg' alt='Mandla Ndiweni CV Image' className='grid-image'/>
+                <img src={CvImage} alt='Mandla Ndiweni CV Image' className='grid-image'/>
             </div>
 
             <div className='bio'>

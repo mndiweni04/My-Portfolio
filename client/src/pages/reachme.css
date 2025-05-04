@@ -6,7 +6,7 @@
 	--color-gray-dark-2: #737373;
 	--color-gray-dark-3: #9a9a9a;
 	--color-blue-dark-1: #00387f;
-	--coloor-black-font:#000000;
+	--color-black-font:#000000;
 	--color-tiffany: #00a6a6;
 	--profile-theme: #4682bf;
 	--timeline-circle-theme: #14253e;
@@ -30,9 +30,7 @@ html{
 	justify-content: center;
 	align-self: center;
 	justify-self: center;
-	padding: 0 5rem;
-	padding-top: 5;
-	padding-bottom: 3rem;
+	padding: 5rem 5rem 3rem 5rem;
 }
 
 .intro-section{
@@ -40,7 +38,6 @@ html{
 	display: grid;
 	grid-template-rows: auto auto;
 	gap: 1rem;
-	padding-left: 2rem;
 }
 
 .contact{
@@ -152,10 +149,15 @@ textarea {
 @media (max-width: 768px) {
 	.ReachMe {
 	  grid-template-columns: 1fr;
+	  padding: 2rem;
 	}
   
 	form, .intro-section {
 	  grid-column: 1;
+	}
+
+	.intro-section {
+		padding-left: 1rem;
 	}
   }
   

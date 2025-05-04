@@ -40,6 +40,7 @@ html{
 	display: grid;
 	grid-template-rows: auto auto;
 	gap: 1rem;
+	padding-left: 2rem;
 }
 
 .contact{

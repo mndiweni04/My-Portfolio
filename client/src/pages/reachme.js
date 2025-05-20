@@ -6,7 +6,7 @@ import {faPhone, faEnvelope, faMapLocationDot} from '@fortawesome/free-solid-svg
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 function ReachMe(){
-    
+
     const sendEmail = (e) => {
         e.preventDefault();
 

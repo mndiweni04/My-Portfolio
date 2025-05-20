@@ -65,7 +65,6 @@ function ReachMe(){
             </div>
 
            <form className="contact-form"  onSubmit={sendEmail}>
-                <input type="hidden" name="to_email" value="mndiweni04@gmail.com" />
                 <div className="name-surname">
                     <input type="text" placeholder="First Name" name="from_firstname" required />
                     <input type="text" placeholder="Last Name" name="from_lastname" required />

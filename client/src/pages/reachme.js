@@ -6,7 +6,6 @@ import {faPhone, faEnvelope, faMapLocationDot} from '@fortawesome/free-solid-svg
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 function ReachMe(){
-
     const sendEmail = (e) => {
         e.preventDefault();
 
@@ -20,7 +19,7 @@ function ReachMe(){
             alert('Message sent successfully!');
             e.target.reset();
         }, (error) => {
-            console.error(error.text);
+            console.error("EmailJS error:", error.text || error);
             alert('An error occurred, please try again.');
         });
     };

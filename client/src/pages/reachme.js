@@ -15,7 +15,7 @@ function ReachMe(){
             'service_47dlsko',
             'template_dt44ahs',
             e.target,
-            process.env.REACT_APP_EMAILJS_PUBLIC_KEY
+            'QIJFc59iAKifvOi-9'//process.env.REACT_APP_EMAILJS_PUBLIC_KEY
         ).then((result) => {
             console.log(result.text);
             alert('Message sent successfully!');

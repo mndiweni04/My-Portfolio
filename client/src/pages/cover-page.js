@@ -21,14 +21,14 @@ function CoverPg(){
                 </p>
                 <button onClick={() => {
                         const link = document.createElement('a');
-                        link.href = '/Mandla_Ndiweni.pdf';
-                        link.download = 'Mandla_Ndiweni.pdf';
+                        link.href = '/Mandla Ndiweni.pdf';
+                        link.download = 'Mandla Ndiweni.pdf';
                         document.body.appendChild(link);
                         link.click();
                         document.body.removeChild(link);
                     }}
                     className="btnDownload" >
-                Download Document
+                Download CV
                 </button>
             </div>
         </div>

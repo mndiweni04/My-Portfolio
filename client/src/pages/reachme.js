@@ -6,8 +6,6 @@ import {faPhone, faEnvelope, faMapLocationDot} from '@fortawesome/free-solid-svg
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 function ReachMe(){
-
-    console.log("Using EmailJS public key:", process.env.REACT_APP_EMAILJS_PUBLIC_KEY);
     const sendEmail = (e) => {
         e.preventDefault();
 

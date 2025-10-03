@@ -1,3 +1,12 @@
+html{
+  scroll-behavior: smooth;
+}
+
+#projects {
+  min-height: 100vh;
+  padding-top: 80px;
+}
+
 html, body {
   margin: 0;
   padding: 0;
